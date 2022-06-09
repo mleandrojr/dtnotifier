@@ -1,0 +1,19 @@
+{
+  "name": "dtnotify",
+  "version": "1.0.0",
+  "description": "DBus to Telegram Notifier",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Leandro",
+  "license": "ISC",
+  "dependencies": {
+    "dbus-next": "^0.10.2",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "path": "^0.12.7"
+  }
+}
